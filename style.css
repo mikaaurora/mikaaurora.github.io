@@ -49,6 +49,7 @@ body {
 .btn-dark {
   margin: 5px;
 }
+
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
@@ -136,22 +137,13 @@ body {
   }
 }
 
-/* GLOBAL STYLES
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
-
-body {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  color: rgb(var(--bs-tertiary-color-rgb));
-}
-
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
 /* Carousel base class */
 .carousel {
-  margin-bottom: 4rem;
+  margin-bottom: 6rem;
+  margin-top: 6rem;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
