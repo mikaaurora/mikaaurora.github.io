@@ -209,12 +209,27 @@ body {
 }
 
 /* grid layout on skills page */
-.grid {
+.grid-all {
+  position: relative;
+  top: -50px;
+}
+
+.grid-1,
+.grid-4 {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(3, 30px);
   gap: 5px;
-  margin: 20px;
+  margin-top: 50px;
+}
+
+.grid-2,
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(1, 30px);
+  gap: 5px;
+  margin-top: 50px;
 }
 
 .badgeIcon {
@@ -253,4 +268,12 @@ body {
 .six {
   grid-column: 1 / 7;
   grid-row: 3;
+}
+
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.1);
 }
