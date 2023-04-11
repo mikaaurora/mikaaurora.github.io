@@ -214,17 +214,19 @@ body {
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(3, 30px);
   gap: 5px;
-  margin: 50px;
+  margin: 20px;
 }
 
-.tag {
-  background: rgb(156, 226, 228);
-  padding: 5px;
+.badgeIcon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
+
+.badge {
+  padding: 2px;
   text-align: center;
-}
-
-.tag:nth-of-type(odd) {
-  background: rgb(254, 240, 222);
 }
 
 .one {
