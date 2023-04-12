@@ -10,6 +10,10 @@
   text-shadow: none; /* Prevent inheritance from `body` */
 }
 
+.mb-auto,
+.mt-auto {
+  font-family: 'Cairo', sans-serif;
+}
 /*
  * Base structure
  */
@@ -34,7 +38,7 @@ body {
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255, 255, 255, 0.25);
+  border-bottom-color: #6528e0;
 }
 
 .nav-masthead .nav-link + .nav-link {
@@ -271,9 +275,9 @@ body {
 }
 
 .grow {
-  transition: all 0.2s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 
 .grow:hover {
-  transform: scale(1.1);
+  transform: scale(1.23);
 }
