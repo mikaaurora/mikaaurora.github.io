@@ -11,7 +11,8 @@
 }
 
 .mb-auto,
-.mt-auto {
+.mt-auto,
+.px-3 {
   font-family: 'Cairo', sans-serif;
 }
 /*
@@ -146,8 +147,8 @@ body {
 
 /* Carousel base class */
 .carousel {
-  margin-bottom: 6rem;
-  margin-top: 6rem;
+  margin-bottom: 3rem;
+  /* margin-top: 6rem; */
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
