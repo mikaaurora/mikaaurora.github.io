@@ -39,7 +39,7 @@ body {
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color: #6528e0;
+  border-bottom-color: rgb(101, 40, 224);
 }
 
 .nav-masthead .nav-link + .nav-link {
@@ -152,8 +152,18 @@ body {
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  bottom: 3rem;
   z-index: 10;
+  position: absolute;
+  background: rgb(101, 40, 224);
+  background: rgba(101, 40, 224, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 1;
+  color: white;
+  font-size: 20px;
+  margin: auto;
+  width: 50%;
 }
 
 /* Declare heights because of positioning of img element */
