@@ -2,7 +2,8 @@
  * Globals
  */
 
-/* Custom default button */
+/* Custom Default Buttons
+-------------------------------------------------- */
 .btn-light,
 .btn-light:hover,
 .btn-light:focus {
@@ -15,9 +16,8 @@
 .px-3 {
   font-family: 'Cairo', sans-serif;
 }
-/*
- * Base structure
- */
+/* Base Structure
+-------------------------------------------------- */
 
 body {
   text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
@@ -28,9 +28,35 @@ body {
   max-width: 42em;
 }
 
-/*
- * Header
- */
+/* Home Page
+-------------------------------------------------- */
+
+.bio-pic {
+  border-radius: 50%;
+  height: 13rem;
+  border-style: inset;
+}
+
+.bio-caption {
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.home-caption {
+  padding-top: 3rem;
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.bio {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+/* Header
+-------------------------------------------------- */
 
 .nav-masthead .nav-link {
   color: rgba(255, 255, 255, 0.5);
@@ -142,7 +168,7 @@ body {
   }
 }
 
-/* CUSTOMIZE THE CAROUSEL
+/* Carousel Settings
 -------------------------------------------------- */
 
 /* Carousel base class */
@@ -171,7 +197,7 @@ body {
   height: 32rem;
 }
 
-/* MARKETING CONTENT
+/* Marketing Content
 -------------------------------------------------- */
 
 /* Center align the text within the three columns below the carousel */
@@ -187,7 +213,7 @@ body {
 /* rtl:end:ignore */
 
 /* Featurettes
-------------------------- */
+-------------------------------------------------- */
 
 .featurette-divider {
   margin: 5rem 0; /* Space out the Bootstrap <hr> more */
@@ -201,7 +227,7 @@ body {
 
 /* rtl:end:remove */
 
-/* RESPONSIVE CSS
+/* Responsice CSS
 -------------------------------------------------- */
 
 @media (min-width: 40em) {
@@ -223,7 +249,8 @@ body {
   }
 }
 
-/* grid layout on skills page */
+/* Grid Layout on Skills Page
+-------------------------------------------------- */
 .grid-all {
   position: relative;
   top: -50px;

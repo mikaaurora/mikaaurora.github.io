@@ -85,3 +85,12 @@
     })
   })
 })()
+
+document.getElementById('video').onclick = function () {
+  document.getElementById('myModal').style.display = 'block'
+}
+
+document.getElementById('myModal').querySelector('.close').onclick =
+  function () {
+    document.getElementById('myModal').style.display = 'none'
+  }
