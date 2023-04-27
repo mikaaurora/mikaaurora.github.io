@@ -173,23 +173,22 @@ body {
 
 /* Carousel base class */
 .carousel {
-  margin-bottom: 3rem;
-  /* margin-top: 6rem; */
+  margin-top: 8rem;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
   position: absolute;
-  background: rgb(101, 40, 224);
+  /* background: rgb(101, 40, 224);
   background: rgba(101, 40, 224, 0.5); /* Black see-through */
-  color: #f1f1f1;
+  /* color: #f1f1f1;
   width: 100%;
   transition: 0.5s ease;
   opacity: 1;
   color: white;
   font-size: 20px;
   margin: auto;
-  width: 50%;
+  width: 50%; */
 }
 
 /* Declare heights because of positioning of img element */
@@ -202,13 +201,18 @@ body {
 
 /* Center align the text within the three columns below the carousel */
 .marketing .col-lg-4 {
-  margin-bottom: 1.5rem;
+  margin-top: 8rem;
+  margin-bottom: 3rem;
   text-align: center;
 }
 /* rtl:begin:ignore */
 .marketing .col-lg-4 p {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
+}
+
+.project-description {
+  margin-top: 3rem;
 }
 /* rtl:end:ignore */
 
