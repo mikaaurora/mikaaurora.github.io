@@ -191,6 +191,10 @@ body {
   width: 50%; */
 }
 
+.carousel-inner {
+  border-radius: 20px;
+}
+
 /* Declare heights because of positioning of img element */
 .carousel-item {
   height: 32rem;
