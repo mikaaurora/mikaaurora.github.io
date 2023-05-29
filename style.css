@@ -16,6 +16,10 @@
 .px-3 {
   font-family: 'Cairo', sans-serif;
 }
+
+.carousel-btn {
+  color: black;
+}
 /* Base Structure
 -------------------------------------------------- */
 
@@ -66,7 +70,8 @@ body {
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color: rgb(101, 40, 224);
+  color: #ff2c5a;
+  border-bottom-color: rgb(61, 255, 213);
 }
 
 .nav-masthead .nav-link + .nav-link {
@@ -136,7 +141,7 @@ body {
 }
 
 .btn-bd-primary {
-  --bd-violet-bg: #712cf9;
+  --bd-violet-bg: #f92c58;
   --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
 
   --bs-btn-font-weight: 600;
@@ -144,12 +149,12 @@ body {
   --bs-btn-bg: var(--bd-violet-bg);
   --bs-btn-border-color: var(--bd-violet-bg);
   --bs-btn-hover-color: var(--bs-white);
-  --bs-btn-hover-bg: #6528e0;
-  --bs-btn-hover-border-color: #6528e0;
+  --bs-btn-hover-bg: #d5284e;
+  --bs-btn-hover-border-color: #d5284e;
   --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
   --bs-btn-active-color: var(--bs-btn-hover-color);
-  --bs-btn-active-bg: #5a23c8;
-  --bs-btn-active-border-color: #5a23c8;
+  --bs-btn-active-bg: #b82545;
+  --bs-btn-active-border-color: #b82545;
 }
 .bd-mode-toggle {
   z-index: 1500;
